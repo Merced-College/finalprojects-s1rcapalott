@@ -1,5 +1,8 @@
-
-
+//Name: Gregory mitchell 
+//Date: 07/17/25
+// Transaction.java
+// Represents a single financial transaction (deposit, withdrawal, transfer).
+// Stores the type, amount, and date of the transaction for tracking and history.
 
 
 // Represents a single transaction (Deposit, Withdraw, Transfer)

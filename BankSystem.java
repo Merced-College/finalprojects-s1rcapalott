@@ -1,3 +1,11 @@
+//Name: Gregory mitchell 
+//Date: 07/17/25
+// BankSystem.java
+// Main class that runs the terminal-based banking app.
+// Handles user interaction, menu display, and connects user actions
+// to account operations like deposit, withdrawal, transfer, and interest calculation.
+
+
 import java.util.*;  // For Scanner, ArrayList, HashMap
 
 // Main class for managing the banking system

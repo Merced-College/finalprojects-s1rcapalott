@@ -1,3 +1,9 @@
+//Name: Gregory mitchell 
+//Date: 07/16/25
+// Account.java
+// Represents a user bank account. Stores user info, balance,
+// and a linked list of transactions. Contains methods to deposit,
+// withdraw, and log transactions.
 
 
 

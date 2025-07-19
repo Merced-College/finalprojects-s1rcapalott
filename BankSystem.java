@@ -129,8 +129,9 @@ public class BankSystem {
         double amount = scanner.nextDouble();
         scanner.nextLine();
 
-        if (from.getBalance() >= amount) {
-            from.withdraw(amount);
+        // ✅ Only proceed if withdraw() actually succeeded
+        boolean success = from.withdraw(amount);
+        if (success) {
             to.deposit(amount);
             from.addTransaction("Transfer Out", amount);
             to.addTransaction("Transfer In", amount);
@@ -139,6 +140,7 @@ public class BankSystem {
             System.out.println("Insufficient funds.");
         }
     }
+
 
     // Calculates future value using recursive compound interest
     public static void interestCalculator(Scanner scanner) {
